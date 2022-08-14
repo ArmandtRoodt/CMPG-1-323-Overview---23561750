@@ -2,7 +2,7 @@
  "Your README file is like the "homepage of your project" - Ray Villalobos, LinkedIn Learning Learning Git and GitHub
 
 ## Which repositories will be created an used for each project?
-According to each project's brief, each project will have its own repository. 
+According to each project's brief, each project will have its own repository. This is subject to change as the needs are assessed closer to the respective project due dates.
 This overview repository will be used to keep track of everything from an "admin" point of view. 
 
 ## Diagram explaining project and repository context and how they are integrated
