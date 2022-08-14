@@ -7,6 +7,7 @@ This overview repository will be used to keep track of everything from an "admin
 
 ## Diagram explaining project and repository context and how they are integrated
 
+
 ## Branching strategy to be used within each project
 The simple "Git Flow" strategy mentioned by Ray Villalobos (see references) makes sense for this project and will be applied throughout the semester. 
 In summary the strategy works as follows (my understanding and abstraction of Villalobos' methodology):
@@ -23,10 +24,13 @@ The .gitignore file will be updated as needed. According to my understanding of 
 ## Explanation of storage of credentials and sensitive information
 
 ## References
-- Virtual classes.
-- Learning Git and GitHub by Ray Villalobos on LinkedIn Learning.
-- DevOps Foundations: DevSecOps by Tim Chase on LinkedIn Learning.
-- DevSecOps: Integrating Security into DevOps.
+- CMPG 323 Virtual classes.
+- Learning Git and GitHub by Ray Villalobos on LinkedIn Learning. https://www.linkedin.com/learning/certificates/8628c83e71080540fa4cec08a4a88eb9e4a090517650933dd4338cc7ab6c53b7
+- DevOps Foundations: DevSecOps by Tim Chase on LinkedIn Learning. https://www.linkedin.com/learning/certificates/e0c6fd5d03a2d8ae71cbf063358083f0fad01d1bdf5b34a33d4e7df2883431a4
+- DevSecOps: Integrating Security into DevOps. https://www.isc2.org/Development/Immersive-Courses/DevSecOps
+- GitHub Security Best Practices https://resources.github.com/downloads/109_SecurityassessmentPDF.1.pdf
+- How to Add Diagrams to GitHub Markdown Files. https://www.freecodecamp.org/news/how-to-add-diagrams-to-github-readme/
+- Mermaid repository. https://github.com/mermaid-js/mermaid
 
 Disclaimer:
 All rights are reserved. All code used in any project will be referenced according to the guidelines given by the lecturers of CMPG323.
