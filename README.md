@@ -6,7 +6,17 @@ According to each project's brief, each project will have its own repository. Th
 This overview repository will be used to keep track of everything from an "admin" point of view. 
 
 ## Diagram explaining project and repository context and how they are integrated
+Where N = an integer associated with the project number
+```mermaid
+flowchart LR
 
+A(Project N) -->
+B(Repository N) 
+RepositoryN --> D[Main/Master Branch]
+RepositoryN --> E[Fix/Feature Branch]
+D --> F[Release]
+E --> F
+```
 
 ## Branching strategy to be used within each project
 The simple "Git Flow" strategy mentioned by Ray Villalobos (see references) makes sense for this project and will be applied throughout the semester. 
