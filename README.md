@@ -32,6 +32,13 @@ The .gitignore file has been setup according to the specifications given by Vill
 The .gitignore file will be updated as needed. According to my understanding of both the course by Villalobos and the CMPG323 class, the gitignore file contains files that should NOT be uploaded to GitHub for security reasons. Therefore the file will be updated as necessary and comments will be made upon commits. 
 
 ## Explanation of storage of credentials and sensitive information
+According to "GitHub security best practices" and DevSecOps principles:
+Single Sign-on will be used where possible.
+Multi-factor authentication will be enabled where possible.
+Where sensitive information has been identified reasonable measures will be taken to encrypt said data whilst it is both at rest and in transit.
+Sensitive data can be assumed to be personally idenifiable information (PII) and any other data protected by the GDPR and POPIA, and any other data that may be deemed sensible by the developers/product owners.
+A "shared credentials vault" may be implemented to store credentials where necessary. This may be Azure Vault or any similar service. This is subject to change as the needs change and will be documented appropriately. 
+In accordance with DevSecOps, code will be scanned for secrets and vulnerabilities before commits are made.
 
 ## References
 - CMPG 323 Virtual classes.
